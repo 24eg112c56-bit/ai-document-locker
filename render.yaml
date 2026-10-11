@@ -1,0 +1,27 @@
+services:
+  # ─── Spring Boot Backend ────────────────────────────────────────────────────
+  - type: web
+    name: ai-document-locker-backend
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    plan: free
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: dev
+      - key: JWT_SECRET
+        value: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: DOCUMENT_STORAGE_DIR
+        value: /app/storage/documents
+      - key: PORT
+        value: 8080
+
+  # ─── React + Nginx Frontend ─────────────────────────────────────────────────
+  - type: web
+    name: ai-document-locker-frontend
+    runtime: docker
+    dockerfilePath: ./frontend/Dockerfile
+    dockerContext: ./frontend
+    plan: free
