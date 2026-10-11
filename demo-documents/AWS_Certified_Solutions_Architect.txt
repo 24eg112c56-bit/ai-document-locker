@@ -1,0 +1,31 @@
+================================================================================
+                      AWS CERTIFICATION OF ACHIEVEMENT
+================================================================================
+
+CERTIFICATE ID: AWS-PSA-2026-884920
+ISSUE DATE: October 11, 2026
+EXPIRATION DATE: October 11, 2029
+
+THIS IS TO CERTIFY THAT:
+                      Alex Morgan
+
+HAS SUCCESSFULLY MET ALL REQUIREMENTS AND DEMONSTRATED TECHNICAL EXPERTISE 
+TO BE OFFICIALLY RECOGNIZED AS AN:
+
+         AWS Certified Solutions Architect – Associate (SAA-C03)
+
+VALIDATION & CREDENTIAL SPECIFICATIONS:
+- Issuing Organization: Amazon Web Services Training and Certification
+- Verification URL: https://aws.amazon.com/verification
+- Candidate ID: AWS04829184
+- Exam Score: 890 / 1000 (Pass)
+
+DOMAINS VALIDATED:
+1. Design Secure Architectures (IAM, KMS, VPC Peering, Transit Gateway)
+2. Design Resilient Architectures (Multi-AZ, Auto Scaling, Route 53 failover)
+3. Design High-Performing Architectures (S3 Transfer Acceleration, CloudFront)
+4. Design Cost-Optimized Architectures (Savings Plans, S3 Glacier, Spot Instances)
+
+Authorized Signature:
+Matt Garman, Chief Executive Officer, Amazon Web Services
+================================================================================

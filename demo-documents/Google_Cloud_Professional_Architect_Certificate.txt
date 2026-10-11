@@ -1,0 +1,31 @@
+================================================================================
+                    GOOGLE CLOUD CERTIFIED CREDENTIAL
+================================================================================
+
+CERTIFICATE SERIAL: GCP-PCA-99382104-2026
+EFFECTIVE DATE: September 15, 2026
+EXPIRATION DATE: September 15, 2028
+
+CERTIFIED CANDIDATE:
+                      Alex Morgan
+                      Candidate ID: GOOG-901842
+
+HAS DEMONSTRATED PROFICIENCY AND IS HEREBY GRANTED THE TITLE OF:
+
+             Google Cloud Certified Professional Cloud Architect
+
+CREDENTIAL DETAILS:
+- Issuing Entity: Google Cloud Learning & Certification
+- Credential Registry: https://google.accredible.com/gcp-pca-99382104
+- Verification Status: ACTIVE & VERIFIED
+
+CORE COMPETENCIES ASSESSED:
+• Designing and planning a cloud solution architecture on Google Cloud Platform
+• Managing and provisioning solution infrastructure with Google Kubernetes Engine (GKE)
+• Designing for security, identity, and compliance (Cloud IAM, Cloud KMS, VPC Service Controls)
+• Analyzing and optimizing technical and business processes (BigQuery, Cloud Spanner)
+• Managing implementations of cloud architecture and ensuring solution reliability
+
+Signed on behalf of Google Cloud Certification Board:
+Thomas Kurian, CEO, Google Cloud
+================================================================================

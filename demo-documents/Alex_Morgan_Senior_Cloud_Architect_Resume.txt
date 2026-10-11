@@ -1,0 +1,35 @@
+================================================================================
+                                 ALEX MORGAN
+          Senior Cloud Solutions Architect & Full-Stack Engineer
+     San Francisco, CA | (555) 019-2834 | alex.morgan@example.com | linkedin.com/in/alexmorgan
+================================================================================
+
+EXECUTIVE SUMMARY
+Accomplished Cloud & Distributed Systems Architect with 6+ years of experience designing 
+high-availability, multi-region cloud infrastructures and AI-powered enterprise applications. 
+Certified AWS Solutions Architect and Google Cloud Professional Architect.
+
+TECHNICAL SKILLS
+- Cloud Platforms: AWS (ECS, EKS, RDS, S3, IAM, CloudFront), Google Cloud (GKE, Cloud Run)
+- Backend & Frameworks: Java, Spring Boot 3, Spring Security, Hibernate, Node.js, Python
+- Databases: MySQL (Aiven, RDS), PostgreSQL, Redis, MongoDB
+- DevOps & Tools: Docker, Kubernetes, Terraform, Git, CI/CD GitHub Actions
+- AI / ML Integration: Google Gemini API, OpenAI API, LangChain, Apache PDFBox
+
+PROFESSIONAL EXPERIENCE
+
+Lead Cloud Infrastructure Engineer | Nexus Cloud Systems (2023 - Present)
+- Architected enterprise cloud infrastructure handling 50M+ requests/day with 99.99% SLA.
+- Reduced cloud infrastructure expenditure by 34% by re-architecting container workloads with Spot instances.
+- Automated document processing workflows using Gemini AI and Spring Boot microservices.
+
+Senior Backend Developer | Vertex Software Solutions (2020 - 2023)
+- Engineered RESTful APIs in Spring Boot and MySQL for financial document management.
+- Implemented JWT-based role-based access control and tenant isolation for 100,000+ users.
+- Mentored junior engineers and led code review pipelines.
+
+EDUCATION & CREDENTIALS
+- B.Tech in Computer Science & Engineering (Honors) – State University of Technology (2020)
+- AWS Certified Solutions Architect – Associate (2026)
+- Google Cloud Certified Professional Cloud Architect (2026)
+================================================================================

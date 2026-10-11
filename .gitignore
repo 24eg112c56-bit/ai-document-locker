@@ -1,0 +1,28 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Environment and Secrets
+.env
+.env.local
+*.pem
+*.cert
+
+# Backend (Maven & Java)
+backend/target/
+backend/.mvn/
+*.class
+backend/*.log
+backend/storage/
+
+# Frontend (Node & Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.log
+
+# IDE & Editors
+.idea/
+.vscode/
+*.iml
+*.swp

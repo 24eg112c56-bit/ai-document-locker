@@ -1,0 +1,60 @@
+services:
+  # MySQL Database (Local development fallback or standalone testing)
+  # When using Aiven Cloud MySQL, set SPRING_PROFILES_ACTIVE=aiven and comment out this service.
+  mysql:
+    image: mysql:8.0
+    container_name: doclocker-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: documentlocker
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_USER: docuser
+      MYSQL_PASSWORD: docpassword
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Spring Boot REST API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: doclocker-backend
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE:-dev}
+      AIVEN_MYSQL_URL: ${AIVEN_MYSQL_URL:-}
+      AIVEN_MYSQL_USER: ${AIVEN_MYSQL_USER:-}
+      AIVEN_MYSQL_PASSWORD: ${AIVEN_MYSQL_PASSWORD:-}
+      JWT_SECRET: ${JWT_SECRET:-404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      DOCUMENT_STORAGE_DIR: /app/storage/documents
+    volumes:
+      - doc_storage:/app/storage/documents
+
+  # React Frontend (Nginx)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: doclocker-frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
+
+volumes:
+  mysql_data:
+  doc_storage:

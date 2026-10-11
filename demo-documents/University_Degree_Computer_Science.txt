@@ -1,0 +1,32 @@
+================================================================================
+                    STATE UNIVERSITY OF TECHNOLOGY
+                       OFFICIAL DEGREE CERTIFICATE
+================================================================================
+
+DIPLOMA REGISTRATION NUMBER: DEG-CS-2026-10482
+DATE OF CONVOCATION: May 24, 2026
+
+THE BOARD OF REGENTS AND THE FACULTY OF THE SCHOOL OF COMPUTING HEREBY CONFER UPON:
+
+                           Alex Morgan
+
+THE DEGREE OF:
+
+             BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE & ENGINEERING
+                           (WITH FIRST CLASS HONORS)
+
+CUMULATIVE GRADE POINT AVERAGE (CGPA): 9.24 / 10.00
+
+SPECIALIZATION / CORE FOCUS:
+- Distributed Systems, Cloud Computing, and Operating Systems
+- Artificial Intelligence, Machine Learning & Neural Networks
+- Database Management Systems and Modern SQL Architectures
+- Information Security and Cryptographic Protocols
+
+SEAL OF THE UNIVERSITY:
+Given under the seal of the University at the Main Campus, this 24th day of May, 2026.
+
+Signatures:
+Dr. Elena Rostova, Dean of Engineering
+Dr. Arthur Vance, Chancellor & President of University
+================================================================================
