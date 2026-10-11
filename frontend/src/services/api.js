@@ -1,7 +1,13 @@
 import axios from 'axios';
 
+// In production (Render), VITE_API_BASE_URL is set to the backend's public URL.
+// In local dev, it's empty so we use relative '/api' (proxied by Vite dev server).
+const BASE_URL = import.meta.env.VITE_API_BASE_URL
+  ? `${import.meta.env.VITE_API_BASE_URL}/api`
+  : '/api';
+
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: BASE_URL,
 });
 
 api.interceptors.request.use((config) => {

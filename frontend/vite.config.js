@@ -16,5 +16,9 @@ export default defineConfig({
         changeOrigin: true
       }
     }
+  },
+  define: {
+    // Bake VITE_API_BASE_URL into the build at compile time (used by api.js)
+    __API_BASE_URL__: JSON.stringify(process.env.VITE_API_BASE_URL || '')
   }
 })
